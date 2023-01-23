@@ -9,7 +9,7 @@
   doi       = {10.1109/LICS.2004.1319636}
 }
 
-@misc{alvarez-picallo2021functorial,
+@article{alvarez-picallo2021functorial,
   title         = {Functorial {{String Diagrams}} for {{Reverse-Mode Automatic Differentiation}}},
   author        = {{Alvarez-Picallo}, Mario and Ghica, Dan R. and Sprunger, David and Zanasi, Fabio},
   year          = {2021},
@@ -56,6 +56,7 @@
   month         = feb,
   eprint        = {1602.08954},
   eprinttype    = {arxiv},
+  doi           = {10.48550/arXiv.1602.08954},
   archiveprefix = {arXiv},
   school        = {University of Oxford}
 }
@@ -176,23 +177,32 @@
   langid    = {english}
 }
 
-@inproceedings{boisseau2021graphical,
-  title         = {Graphical {{Piecewise-Linear Algebra}}},
-  author        = {Boisseau, Guillaume and Piedeleu, Robin},
-  year          = {2021},
-  month         = nov,
-  eprint        = {2111.03956},
-  eprinttype    = {arxiv},
-  archiveprefix = {arXiv}
+@inproceedings{boisseau2022graphical,
+  title     = {Graphical {{Piecewise-Linear Algebra}}},
+  booktitle = {Foundations of {{Software Science}} and {{Computation Structures}}: 25th {{International Conference}}, {{FOSSACS}} 2022, {{Held}} as {{Part}} of the {{European Joint Conferences}} on {{Theory}} and {{Practice}} of {{Software}}, {{ETAPS}} 2022, {{Munich}}, {{Germany}}, {{April}} 2\textendash 7, 2022, {{Proceedings}}},
+  author    = {Boisseau, Guillaume and Piedeleu, Robin},
+  year      = {2022},
+  month     = apr,
+  pages     = {101--119},
+  publisher = {{Springer-Verlag}},
+  address   = {{Berlin, Heidelberg}},
+  doi       = {10.1007/978-3-030-99253-8_6},
+  isbn      = {978-3-030-99252-1}
 }
 
-@article{boisseau2021string,
+@article{boisseau2022string,
   title         = {String {{Diagrammatic Electrical Circuit Theory}}},
   author        = {Boisseau, Guillaume and Soboci{\'n}ski, Pawe{\l}},
-  year          = {2021},
-  month         = jun,
+  year          = {2022},
+  month         = nov,
+  journal       = {Electronic Proceedings in Theoretical Computer Science},
+  volume        = {372},
   eprint        = {2106.07763},
   eprinttype    = {arxiv},
+  primaryclass  = {cs},
+  pages         = {178--191},
+  issn          = {2075-2180},
+  doi           = {10.4204/EPTCS.372.13},
   archiveprefix = {arXiv}
 }
 
@@ -300,13 +310,15 @@
 
 @article{bonchi2018graphical,
   title         = {Graphical {{Conjunctive Queries}}},
-  author        = {Bonchi, Filippo and Seeber, Jens and Soboci{\'n}ski, Pawel},
+  author        = {Bonchi, Filippo and Seeber, Jens and Sobocinski, Pawel},
   year          = {2018},
   month         = apr,
-  journal       = {arXiv:1804.07626 [cs]},
+  number        = {arXiv:1804.07626},
   eprint        = {1804.07626},
   eprinttype    = {arxiv},
   primaryclass  = {cs},
+  publisher     = {{arXiv}},
+  doi           = {10.48550/arXiv.1804.07626},
   archiveprefix = {arXiv}
 }
 
@@ -334,7 +346,7 @@
   doi       = {10.1109/LICS.2019.8785877}
 }
 
-@misc{bonchi2021string,
+@article{bonchi2021string,
   title         = {String {{Diagram Rewrite Theory II}}: {{Rewriting}} with {{Symmetric Monoidal Structure}}},
   shorttitle    = {String {{Diagram Rewrite Theory II}}},
   author        = {Bonchi, Filippo and Gadducci, Fabio and Kissinger, Aleks and Soboci{\'n}ski, Pawel and Zanasi, Fabio},
@@ -580,7 +592,7 @@
   langid    = {english}
 }
 
-@misc{dilavore2022coinductive,
+@article{dilavore2022coinductive,
   title         = {Coinductive {{Streams}} in {{Monoidal Categories}}},
   author        = {Di Lavore, Elena and {de Felice}, Giovanni and Rom{\'a}n, Mario},
   year          = {2022},
@@ -594,44 +606,33 @@
   archiveprefix = {arXiv}
 }
 
-@misc{dilavore2022monoidal,
-  title         = {Monoidal {{Streams}} for {{Dataflow Programming}}},
-  author        = {Di Lavore, Elena and {de Felice}, Giovanni and Rom{\'a}n, Mario},
-  year          = {2022},
-  month         = feb,
-  number        = {arXiv:2202.02061},
-  eprint        = {2202.02061},
-  eprinttype    = {arxiv},
-  primaryclass  = {cs, math},
-  publisher     = {{arXiv}},
-  doi           = {10.48550/arXiv.2202.02061},
-  archiveprefix = {arXiv}
-}
-
 @article{dilavore2022monoidala,
-  title         = {Monoidal {{Width}}},
-  author        = {Di Lavore, Elena and Soboci{\'n}ski, Pawe{\l}},
-  year          = {2022},
-  month         = feb,
-  journal       = {arXiv:2202.07582 [cs, math]},
-  eprint        = {2202.07582},
-  eprinttype    = {arxiv},
-  primaryclass  = {cs, math},
-  archiveprefix = {arXiv}
-}
-
-@misc{dilavore2022monoidalb,
   title         = {Monoidal {{Width}}: {{Capturing Rank Width}}},
   shorttitle    = {Monoidal {{Width}}},
   author        = {Di Lavore, Elena and Soboci{\'n}ski, Pawe{\l}},
   year          = {2022},
-  month         = may,
+  month         = oct,
   number        = {arXiv:2205.08916},
   eprint        = {2205.08916},
   eprinttype    = {arxiv},
   primaryclass  = {cs, math},
-  institution   = {{arXiv}},
+  publisher     = {{arXiv}},
   doi           = {10.48550/arXiv.2205.08916},
+  archiveprefix = {arXiv}
+}
+
+@article{dilavore2022monoidalb,
+  title         = {Monoidal {{Width}}: {{Unifying Tree Width}}, {{Path Width}} and {{Branch Width}}},
+  shorttitle    = {Monoidal {{Width}}},
+  author        = {Di Lavore, Elena and Soboci{\'n}ski, Pawe{\l}},
+  year          = {2022},
+  month         = may,
+  number        = {arXiv:2202.07582},
+  eprint        = {2202.07582},
+  eprinttype    = {arxiv},
+  primaryclass  = {cs, math},
+  publisher     = {{arXiv}},
+  doi           = {10.48550/arXiv.2202.07582},
   archiveprefix = {arXiv}
 }
 
@@ -758,7 +759,7 @@
   isbn      = {978-1-4503-4391-6}
 }
 
-@misc{fong2018seven,
+@article{fong2018seven,
   title         = {Seven {{Sketches}} in {{Compositionality}}: {{An Invitation}} to {{Applied Category Theory}}},
   shorttitle    = {Seven {{Sketches}} in {{Compositionality}}},
   author        = {Fong, Brendan and Spivak, David I.},
@@ -799,14 +800,18 @@
   archiveprefix = {arXiv}
 }
 
-@misc{fritz2022free,
-  title     = {Free Gs-Monoidal Categories and Free {{Markov}} Categories},
-  author    = {Fritz, Tobias and Liang, Wendong},
-  year      = {2022},
-  month     = apr,
-  number    = {arXiv:2204.02284},
-  publisher = {{arXiv}},
-  doi       = {10.48550/arXiv.2204.02284}
+@article{fritz2022free,
+  title         = {Free Gs-Monoidal Categories and Free {{Markov}} Categories},
+  author        = {Fritz, Tobias and Liang, Wendong},
+  year          = {2022},
+  month         = apr,
+  number        = {arXiv:2204.02284},
+  eprint        = {2204.02284},
+  eprinttype    = {arxiv},
+  primaryclass  = {cs, math, stat},
+  publisher     = {{arXiv}},
+  doi           = {10.48550/arXiv.2204.02284},
+  archiveprefix = {arXiv}
 }
 
 @article{gange2014fourvalued,
@@ -943,7 +948,7 @@
   archiveprefix = {arXiv}
 }
 
-@misc{ghica2022compositional,
+@article{ghica2022compositional,
   title         = {A Compositional Theory of Digital Circuits},
   author        = {Ghica, Dan R. and Kaye, George and Sprunger, David},
   year          = {2022},
@@ -954,18 +959,6 @@
   primaryclass  = {cs, math},
   publisher     = {{arXiv}},
   doi           = {10.48550/arXiv.2201.10456},
-  archiveprefix = {arXiv}
-}
-
-@article{ghica2022full,
-  title         = {Full Abstraction for Digital Circuits},
-  author        = {Ghica, Dan R. and Kaye, George and Sprunger, David},
-  year          = {2022},
-  month         = feb,
-  journal       = {arXiv:2201.10456 [cs, math]},
-  eprint        = {2201.10456},
-  eprinttype    = {arxiv},
-  primaryclass  = {cs, math},
   archiveprefix = {arXiv}
 }
 
@@ -1010,7 +1003,7 @@
   langid    = {english}
 }
 
-@misc{gu2022complete,
+@article{gu2022complete,
   title         = {A {{Complete Diagrammatic Calculus}} for {{Boolean Satisfiability}}},
   author        = {Gu, Tao and Piedeleu, Robin and Zanasi, Fabio},
   year          = {2022},
@@ -1347,7 +1340,7 @@
   langid  = {english}
 }
 
-@misc{lobski2022string,
+@article{lobski2022string,
   title         = {String {{Diagrams}} for {{Layered Explanations}}},
   author        = {Lobski, Leo and Zanasi, Fabio},
   year          = {2022},
@@ -1470,7 +1463,7 @@
   isbn      = {978-3-95977-033-0}
 }
 
-@misc{milosavljevic2022string,
+@article{milosavljevic2022string,
   title         = {String {{Diagram Rewriting Modulo Commutative Monoid Structure}}},
   author        = {Milosavljevic, Aleksandar and Zanasi, Fabio},
   year          = {2022},
@@ -1550,7 +1543,7 @@
   pmid    = {null}
 }
 
-@misc{piedeleu2022finite,
+@article{piedeleu2022finite,
   title         = {A {{Finite Axiomatisation}} of {{Finite-State Automata Using String Diagrams}}},
   author        = {Piedeleu, Robin and Zanasi, Fabio},
   year          = {2022},
@@ -1640,12 +1633,10 @@
   annotation = {\_eprint: https://doi.org/10.1080/11663081.1999.10510958}
 }
 
-@phdthesis{riedel2004cyclic,
+@phdthesis{riedelcyclic,
   title     = {Cyclic Combinational Circuits},
   author    = {Riedel, Marc D.},
-  year      = {2004},
-  month     = may,
-  address   = {{United States}},
+  address   = {{United States -- California}},
   copyright = {Database copyright ProQuest LLC; ProQuest does not claim copyright in the individual underlying works.},
   isbn      = {9780496071005},
   langid    = {english},
@@ -1807,22 +1798,21 @@
   doi       = {10.1109/FPGA.1996.564830}
 }
 
-@misc{sobocinski2019cartographer,
-  type         = {Proceedings Paper},
-  title        = {Cartographer: A {{Tool}} for {{String Diagrammatic Reasoning}}},
-  shorttitle   = {{{CARTOGRAPHER}}},
-  author       = {Soboci{\'n}ski, Pawe{\l} and Wilson, Paul and Zanasi, Fabio},
-  year         = {2019},
-  month        = nov,
-  journal      = {In: Roggenbach, M and Sokolova, A, (eds.) 8th Conference on Algebra and Coalgebra in Computer Science (CALCO 2019).  (pp. 20:1-20:7).  Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik: Dagstuhl, Germany. (2019)},
-  volume       = {139},
-  pages        = {20:1-20:7},
-  publisher    = {{Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik}},
-  address      = {{Dagstuhl, Germany}},
-  issn         = {1868-8969},
-  copyright    = {open},
-  howpublished = {http://dx.doi.org/10.4230/LIPIcs.CALCO.2019.20},
-  langid       = {english}
+@inproceedings{sobocinski2019cartographer,
+  title      = {{{CARTOGRAPHER}}: {{A Tool}} for {{String Diagrammatic Reasoning}}},
+  shorttitle = {{{CARTOGRAPHER}}},
+  booktitle  = {8th {{Conference}} on {{Algebra}} and {{Coalgebra}} in {{Computer Science}} ({{CALCO}} 2019)},
+  author     = {Sobocinski, Pawel and Wilson, Paul W. and Zanasi, Fabio},
+  editor     = {Roggenbach, Markus and Sokolova, Ana},
+  year       = {2019},
+  series     = {Leibniz {{International Proceedings}} in {{Informatics}} ({{LIPIcs}})},
+  volume     = {139},
+  pages      = {20:1--20:7},
+  publisher  = {{Schloss Dagstuhl\textendash Leibniz-Zentrum fuer Informatik}},
+  address    = {{Dagstuhl, Germany}},
+  issn       = {1868-8969},
+  doi        = {10.4230/LIPIcs.CALCO.2019.20},
+  isbn       = {978-3-95977-120-7}
 }
 
 @article{spivak2013operad,
@@ -1900,20 +1890,24 @@
   langid    = {english}
 }
 
-@article{wilson2021cost,
+@article{wilson2022cost,
   title         = {The {{Cost}} of {{Compositionality}}: {{A High-Performance Implementation}} of {{String Diagram Composition}}},
   shorttitle    = {The {{Cost}} of {{Compositionality}}},
   author        = {Wilson, Paul and Zanasi, Fabio},
-  year          = {2021},
-  month         = may,
-  journal       = {arXiv:2105.09257 [cs, math]},
+  year          = {2022},
+  month         = nov,
+  journal       = {Electronic Proceedings in Theoretical Computer Science},
+  volume        = {372},
   eprint        = {2105.09257},
   eprinttype    = {arxiv},
   primaryclass  = {cs, math},
+  pages         = {262--275},
+  issn          = {2075-2180},
+  doi           = {10.4204/EPTCS.372.19},
   archiveprefix = {arXiv}
 }
 
-@misc{wilson2022string,
+@article{wilson2022string,
   title         = {String Diagrams for Non-Strict Monoidal Categories},
   author        = {Wilson, Paul and Ghica, Dan and Zanasi, Fabio},
   year          = {2022},
@@ -1946,8 +1940,24 @@
   volume        = {263},
   eprint        = {1712.09495},
   eprinttype    = {arxiv},
+  primaryclass  = {cs},
   pages         = {16--30},
   issn          = {2075-2180},
   doi           = {10.4204/EPTCS.263.2},
+  archiveprefix = {arXiv}
+}
+
+@article{zanasi2018interacting,
+  title         = {Interacting {{Hopf Algebras}}: The Theory of Linear Systems},
+  shorttitle    = {Interacting {{Hopf Algebras}}},
+  author        = {Zanasi, Fabio},
+  year          = {2018},
+  month         = may,
+  number        = {arXiv:1805.03032},
+  eprint        = {1805.03032},
+  eprinttype    = {arxiv},
+  primaryclass  = {cs, math},
+  publisher     = {{arXiv}},
+  doi           = {10.48550/arXiv.1805.03032},
   archiveprefix = {arXiv}
 }
